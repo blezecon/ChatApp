@@ -1,3 +1,1 @@
 Simple Chat app
-
-a
