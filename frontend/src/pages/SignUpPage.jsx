@@ -1,8 +1,26 @@
 import React from 'react'
 
 const SignUpPage = () => {
+  const [showPassword, setShowPassword] = useState(false);
+  const [formData, setFormData] = useState({
+    username: '',
+    email: '',
+    password: '',
+  });
+
+  const {signup, isSigningUp} = useAuthStore();
+
+  const validateForm = () => {}
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+  }
+
+
   return (
-    <div>SignUpPage</div>
+    <div className='flex'> 
+      
+    </div>
   )
 }
 
